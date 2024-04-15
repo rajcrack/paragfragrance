@@ -32,7 +32,7 @@ const attarContent = (
     <div className="w-[200px] text-sm text-gray-500 dark:text-gray-400">
         <div className="px-3 py-2 flex flex-col pt-4">
             {
-                NavLinks.attars.map((link, index) => (<Link key={index} href={link.href} className='pt-2 pb-2 pl-5 w-full hover:text-blue-400 font-medium'>{link.title}</Link>))
+                NavLinks.attars.map((link, index) => (<Link key={index} href={link.href} className='pt-2 pb-2 pl-5 w-full hover:text-blue-400 font-medium outline-none'>{link.title}</Link>))
             }
         </div>
     </div>
@@ -41,7 +41,7 @@ const agarbattiContent = (
     <div className="w-[200px] text-sm text-gray-500 dark:text-gray-400">
         <div className="px-3 py-2 flex flex-col pt-4">
             {
-                NavLinks.agarbatti.map((link, index) => (<Link key={index} href={link.href} className='pt-2 pb-2 pl-5 w-full hover:text-blue-400 font-medium'>{link.title}</Link>))
+                NavLinks.agarbatti.map((link, index) => (<Link key={index} href={link.href} className='pt-2 pb-2 pl-5 w-full hover:text-blue-400 font-medium outline-none'>{link.title}</Link>))
             }
         </div>
     </div>
@@ -50,7 +50,7 @@ const galleryContent = (
     <div className="w-[200px] text-sm text-gray-500 dark:text-gray-400">
         <div className="px-3 py-2 flex flex-col pt-4">
             {
-                NavLinks.gallery.map((link, index) => (<Link key={index} href={link.href} className='pt-2 pb-2 pl-5 w-full hover:text-blue-400 font-medium'>{link.title}</Link>))
+                NavLinks.gallery.map((link, index) => (<Link key={index} href={link.href} className='pt-2 pb-2 pl-5 w-full hover:text-blue-400 font-medium outline-none'>{link.title}</Link>))
             }
         </div>
     </div>

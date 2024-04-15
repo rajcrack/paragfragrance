@@ -5,6 +5,7 @@ import "./globals.css";
 import { LoadingContext } from "@/lib/global/context/context";
 import { useState } from "react";
 import ResponsiveNav from "@/components/common/NavBar/ResponsiveNav";
+import Footeer from "@/components/common/Footer/Footer";
 
 const halvetica = Libre_Franklin({ subsets: ["latin"] });
 
@@ -29,7 +30,9 @@ export default function RootLayout({
         <body className={halvetica.className}>
           <ResponsiveNav />
           <NextTopLoader />
-          {children}</body>
+          {children}
+          <Footeer />
+        </body>
       </html>
     </LoadingContext.Provider>
   );
