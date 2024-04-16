@@ -48,7 +48,7 @@ export default function Section3Card() {
                     <Link className="w-[260px] h-[260px] mb-8" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_spicy.jpg" alt='image' fill /></div></Link>
                 </div>)
                 :
-                (<></>)
+                (<>Dasta from database show here</>)
             }
 
         </div>

@@ -1,6 +1,7 @@
 import HomeHeaderCorousel from "@/components/home/HomeHeaderCorousel";
 import Section2Card from "@/components/home/Section2Card";
 import Section3Card from "@/components/home/Section3Card";
+import Section4Card from "@/components/home/Section4Card";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 
 
@@ -41,6 +42,11 @@ export default function page() {
         <Section3Card />
       </section>
       {/* section 3 ends here */}
+      {/* section 4 starts here */}
+      <section className="w-full">
+        <Section4Card />
+      </section>
+      {/* section 4 ends here */}
     </>
   )
 }
