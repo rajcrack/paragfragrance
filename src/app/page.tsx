@@ -1,5 +1,6 @@
 import HomeHeaderCorousel from "@/components/home/HomeHeaderCorousel";
 import Section2Card from "@/components/home/Section2Card";
+import Section3Card from "@/components/home/Section3Card";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 
 
@@ -24,7 +25,7 @@ export default function page() {
             <div className="w-[140px] h-[2px] bg-[#c1b17e]"></div>
           </div>
         </div>
-        <div className="w-full lg:max-w-[65%] mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="w-full lg:max-w-[65%] mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center">
           <Section2Card link="#" title="Attar" image="/home/sectiontwo_attar.jpg" />
           <Section2Card link="#" title="Dhoop Sticks" image="/home/sectiontwo_stick.jpg" />
           <Section2Card link="#" title="Perfumes" image="/home/sectiontwo_perfumes.jpg" />
@@ -36,6 +37,9 @@ export default function page() {
       </section>
       {/* section 2 ends here */}
       {/* section 3 starts here */}
+      <section className="w-full lg:max-w-[65%] mx-auto">
+        <Section3Card />
+      </section>
       {/* section 3 ends here */}
     </>
   )
