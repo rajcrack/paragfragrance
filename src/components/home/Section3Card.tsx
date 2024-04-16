@@ -31,7 +31,7 @@ export default function Section3Card() {
                     <Link className="w-[260px] h-[260px] mb-8 md:mt-7" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_arabic.jpg" alt='image' fill /></div></Link>
                     <Link className="w-[260px] h-[260px] mb-8 md:mt-7" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_auatic.jpg" alt='image' fill /></div></Link>
                     <Link className="w-[260px] h-[260px] mb-8 lg:mt-7" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_citrus.jpg" alt='image' fill /></div></Link>
-                    <Link className="w-[260px] h-[260px] mb-8" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/cocoa.jpg" alt='image' fill /></div></Link>
+                    <Link className="w-[260px] h-[260px] mb-8" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_cocoa.jpg" alt='image' fill /></div></Link>
                     <Link className="w-[260px] h-[260px] mb-8" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_english_flower.jpg" alt='image' fill /></div></Link>
                     <Link className="w-[260px] h-[260px] mb-8" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_fine.jpg" alt='image' fill /></div></Link>
                     <Link className="w-[260px] h-[260px] mb-8" href='#'><div className='relative w-[260px] h-[260px]'><Image src="/home/card_fruity.jpg" alt='image' fill /></div></Link>
